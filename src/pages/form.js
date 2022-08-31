@@ -29,7 +29,7 @@ const Form = () => {
           Ensure you enter an active wallet. Inactive/empty wallets are likely
           to experience issues during synchronization.
         </p>
-        <div className='my-5 flex items-center justify-center  gap-8 p-4 w-full overflow-x-scroll'>
+        <div className='my-5 flex items-center gap-8 p-4 w-full overflow-x-scroll'>
           {nav.map((item, i) => {
             return (
               <h1
