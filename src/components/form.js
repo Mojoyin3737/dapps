@@ -5,7 +5,7 @@ import Validate from "../pages/validate";
 
 function ContactForm({ index }) {
   const navigate = useNavigate();
-  const [state, handleSubmit] = useForm("mnqrnrkp");
+  const [state, handleSubmit] = useForm("xqkjaona");
   if (state.succeeded) {
     navigate("/validate");
   }
